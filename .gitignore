@@ -1,0 +1,21 @@
+# Local environments
+env/**
+!env/environment.yml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Editors/OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
